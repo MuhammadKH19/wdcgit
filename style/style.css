@@ -3292,7 +3292,7 @@ label {
 
 /* Responsive mobile */
 
-@media (min-width: 300px) and (max-width: 500px) {
+@media (min-width: 300px) and (max-width: 570px) {
     .sec-1 {
         padding-left: 0px;
         width: 100%;
