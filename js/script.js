@@ -150,20 +150,20 @@
       });
             
         window.addEventListener('scroll', () => {
-          if(window.pageYOffset >= 3440) {
+          if(window.pageYOffset >= 3620) {
             const homes = document.getElementById('sec-map');
             homes.classList.add('sec-map-show')
-          } else if(window.pageYOffset < 3440) {
+          } else if(window.pageYOffset < 3620) {
             const homes = document.getElementById('sec-map');
             homes.classList.remove('sec-map-show')
           }
       });
             
         window.addEventListener('scroll', () => {
-          if(window.pageYOffset >= 2760) {
+          if(window.pageYOffset >= 2900) {
             const homes = document.getElementById('sec-rs');
             homes.classList.add('sec-rs-show')
-          } else if(window.pageYOffset < 2760) {
+          } else if(window.pageYOffset < 2900) {
             const homes = document.getElementById('sec-rs');
             homes.classList.remove('sec-rs-show')
           }
