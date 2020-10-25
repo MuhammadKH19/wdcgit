@@ -1383,7 +1383,7 @@ tr {
 }
 
 .kartus3 {
-    padding-left: 35px;
+    padding-left: 30px;
 }
 
 .sec-siapa-kami {
@@ -1987,6 +1987,14 @@ tr {
     width: 85%;
     font-weight: 500;
     text-align: justify;
+}
+
+.sec-info3 h1 {
+    padding-left: 50px;
+}
+
+.sec-info3 p {
+    padding-left: 50px;
 }
 
 .kartus2 {
@@ -3424,9 +3432,10 @@ label {
         
     .sec-map {
         width: 100%;
-        height: 500px;
+        height: auto;
         margin: auto;
         display: block;
+        padding: 15px;
         text-align: center;
         font-weight: 500;
         transition: 0.6s;
@@ -3436,10 +3445,10 @@ label {
         position: relative;
         overflow: hidden;
         height: 500px; 
-        left: -40px;
+        left: 0px;
         margin-top: 50PX;
         padding: 10px;
-        width: 300px; 
+        width: 100%; 
         border-radius: 8px;
         box-shadow: 0 0 15px lightgrey;
         background-color: #fff;
@@ -3455,6 +3464,7 @@ label {
         position: relative;
         left: -40px;
         overflow: hidden;
+        display: none;
         height: 500px; 
         padding-bottom: 30px;
         width: 300px; 
@@ -3497,6 +3507,7 @@ label {
     
     .sec-2 h1 {
         margin-left: 0px;
+        font-size: 26px;
     }
         
     .kartu {
@@ -3558,26 +3569,6 @@ label {
         display: none;
     }
 
-    .sec-siapa-kami {
-        position: relative;
-        font-family: 'Poppins', sans-serif;
-        padding-left: 5px;
-        padding-right: 5px;
-        margin-top: 20px;
-        left: 0%;
-        padding-top: 0px;
-        width: 100%;
-        background-color: #FFF;
-        height: 400px;
-        color: rgb(82, 82, 82);
-        display: block;
-        flex-wrap: wrap;
-        opacity: 1;
-        justify-content: space-between;
-        padding-bottom: 65px;
-        transition: 0.8s;
-    }
-
     .siapa-dark {
         transition: 0.6s;
         background-color: #4e4c4c;
@@ -3600,15 +3591,6 @@ label {
         width: 96%;
         padding: 2px 25px;
         text-align: justify;
-    }
-
-    .sec-siapa-kami p {
-        width: 100%;
-        font-size: 16px;
-        line-height: 1.8em;
-        font-weight: 500;
-        margin-top: 0px;
-        padding: 40px;
     }
 
     .sec-siapa-kami img {
@@ -3999,10 +3981,11 @@ label {
         left: 0%;
         width: 100%;
         height: auto;
+        margin-top: 60px;
         color: black;
         display: block;
         flex-wrap: wrap;
-        padding: 20px 35px;    
+        padding: 30px 15px 30px 35px;    
         font-family: 'Poppins', sans-serif;
         transition: 0.8s;
     }
@@ -4031,7 +4014,7 @@ label {
         font-size: 16px;
         line-height: 1.8em;
         font-weight: 500;
-        width: 280px;
+        width: 100%;
         margin-top: 5px;
         padding-left: 0px;
     }
@@ -4222,6 +4205,8 @@ label {
         position: relative;
         width: 100%;
         left: -60px;
+        margin: auto;
+        padding: 0;
         display: block;
         justify-content: space-between;
         transition: 0.5s;
@@ -4232,13 +4217,15 @@ label {
     }
 
     .wraps2 div {
-        width: 370px;
+        position: relative;
+        left: 20px;
+        width: 100%;
         height: 300px;
         padding: 20px;
         border-radius: 7px;
         border: none;
         font-weight: 500;
-        margin: 40px 30px;
+        margin: 40px 40px;
         text-align: center;
         outline: none;
         border-radius: 10px;
@@ -4344,7 +4331,9 @@ label {
         
     .sponsor-logo {
         position: relative;
-        left: -90px;
+        width: 100%;
+        height: auto;
+        left: -80px;
         margin-top: -80px;
         display: block;
     }
@@ -4448,6 +4437,16 @@ label {
         font-family: 'Poppins', sans-serif;
         text-align: justify;
         font-size: 15px;
+    }
+        
+    .sec-info3 h1 {
+        padding-left: 0px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .sec-info3 p {
+        padding-left: 0px;
     }
 
 }
