@@ -1,2 +1,2 @@
 # wdcgit
-web desain covid karya muhammad khoirul huda smkn1 cirebon wdcPNB
+web desain dengan tema pandemic era karya Muhammad Khoirul Huda - WDC PNB 2020
